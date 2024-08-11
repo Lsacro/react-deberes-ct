@@ -9,7 +9,7 @@ function App() {
       <ul>
         {books.map((book, index) => (
           <li key={index}>
-            {book.name} - {book.author}
+            {book.name} - {book.author} - {book.year}
           </li>
         ))}
       </ul>
